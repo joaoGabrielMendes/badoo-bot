@@ -1,9 +1,4 @@
-import puppeteer, {
-  ElementHandle,
-  Browser,
-  KnownDevices,
-  Page,
-} from "puppeteer";
+import puppeteer, { ElementHandle, KnownDevices, Page } from "puppeteer";
 import * as dt from "dotenv";
 dt.config();
 import { xPath } from "./selectors/selectors";
