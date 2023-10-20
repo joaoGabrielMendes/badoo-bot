@@ -3,7 +3,9 @@ const selector = {
   btn_nope: '[data-qa="profile-card-action-vote-no"]',
   btn_say_hi: '[data-qa="mutual-attraction-cta"]',
   chat_messages: '[data-qa="chat-messages"]', // div contain messages
-  messages: '[data-id="chat-message"]',
+  messages: '[data-qa="chat-message"]',
+  chat_label: '[data-qa="chat-input-textarea"]',
+  send_message: '[data-qa="messenger-chat-send-circle"]',
 };
 
 const xPath = {

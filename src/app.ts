@@ -4,18 +4,20 @@ import conversation from "./conversations";
 
 program.version("1.0.0").description("Automation badoo website");
 
+// Badoo automatic swap
 program
   .command("swap")
-  .description("infinite tinder swap")
+  .description("infinite swap")
   .action(() => {
     Swipe();
   });
 
+// Auto conversation passing chat`s url
 program
-  .command("server")
-  .description("create a server")
-  .action(() => {
-    conversation();
+  .command("auto-chat <url>")
+  .description("auto conversation using chat gpt")
+  .action((url: string) => {
+    conversation(url);
   });
 
 program.parse(process.argv);
