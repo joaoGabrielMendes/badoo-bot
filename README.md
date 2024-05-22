@@ -10,7 +10,7 @@ This is a simple scraper created to automate interactions with Badoo using Puppe
 - Navigation and interaction with profiles
 - Automatic message sending
 
-##Technologies Used
+## Technologies Used
 
 - Node.js: JavaScript runtime built on Chrome's V8 JavaScript engine.
 - Puppeteer: Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol.
